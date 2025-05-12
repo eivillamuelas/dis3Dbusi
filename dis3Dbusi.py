@@ -133,7 +133,7 @@ def scan_directory_graph(base_path):
                     pass  # Ignorar errores al leer archivos
         
         # Crear archivo metadata.json para esta carpeta
-        folder_data = {"path": full_path, "files": folder_files}
+        folder_data = {"path": "/" + full_path, "files": folder_files}
         if subfolders:
             folder_data["subfolders"] = [{"name": subfolder} for subfolder in subfolders]
         

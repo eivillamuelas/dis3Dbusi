@@ -1,19 +1,58 @@
 {
-  "path": "data/ludo",
+  "path": "/data/ludo",
   "files": [
     {
       "type": "image",
       "name": "matrixClipInversion.png",
+      "data": {
+        "pos": [
+          5,
+          11.329145147700718,
+          5.1300572088121505
+        ],
+        "rot": [
+          45.00000000000001,
+          0,
+          0
+        ],
+        "scale": 1
+      },
       "link": "enrique/carpeta"
     },
     {
       "type": "image",
       "name": "santiagoPOV.jpeg",
+      "data": {
+        "pos": [
+          5,
+          16.098490418293295,
+          1.8620999881250722
+        ],
+        "rot": [
+          45.00000000000001,
+          0,
+          0
+        ],
+        "scale": 1
+      },
       "link": "enrique"
     },
     {
       "type": "unknown",
-      "name": "shoppingList"
+      "name": "shoppingList",
+      "data": {
+        "pos": [
+          5,
+          11.301707092156931,
+          1.409210005467802
+        ],
+        "rot": [
+          45.00000000000001,
+          0,
+          0
+        ],
+        "scale": -9.972705242163363
+      }
     }
   ]
 }
