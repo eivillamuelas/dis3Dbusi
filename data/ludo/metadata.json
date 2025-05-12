@@ -1,0 +1,19 @@
+{
+  "path": "data/ludo",
+  "files": [
+    {
+      "type": "image",
+      "name": "matrixClipInversion.png",
+      "link": "enrique/carpeta"
+    },
+    {
+      "type": "image",
+      "name": "santiagoPOV.jpeg",
+      "link": "enrique"
+    },
+    {
+      "type": "unknown",
+      "name": "shoppingList"
+    }
+  ]
+}

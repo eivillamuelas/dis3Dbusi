@@ -1,0 +1,26 @@
+{
+  "path": "data/enrique",
+  "files": [
+    {
+      "type": "image",
+      "name": "santiagoPOV.jpeg",
+      "data": {
+        "pos": [
+          0,
+          1,
+          2
+        ]
+      },
+      "link": "ludo"
+    },
+    {
+      "type": "image",
+      "name": "una_calle_de_madrid.png"
+    }
+  ],
+  "subfolders": [
+    {
+      "name": "carpeta"
+    }
+  ]
+}

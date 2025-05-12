@@ -1,0 +1,15 @@
+{
+  "path": "data/walla/carpeta0",
+  "files": [
+    {
+      "type": "image",
+      "name": "espacio_intermedio.png",
+      "link": "enrique/carpeta"
+    }
+  ],
+  "subfolders": [
+    {
+      "name": "carpeta 1"
+    }
+  ]
+}

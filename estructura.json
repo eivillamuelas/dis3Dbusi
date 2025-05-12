@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "enrique"
+    },
+    {
+      "id": "enrique/carpeta"
+    },
+    {
+      "id": "ludo"
+    },
+    {
+      "id": "nina"
+    },
+    {
+      "id": "sebastian"
+    },
+    {
+      "id": "walla"
+    },
+    {
+      "id": "walla/carpeta0"
+    },
+    {
+      "id": "walla/carpeta0/carpeta 1"
+    }
+  ],
+  "links": [
+    {
+      "source": "enrique",
+      "target": "enrique/carpeta",
+      "type": 0
+    },
+    {
+      "source": "walla",
+      "target": "walla/carpeta0",
+      "type": 0
+    },
+    {
+      "source": "walla/carpeta0",
+      "target": "walla/carpeta0/carpeta 1",
+      "type": 0
+    },
+    {
+      "source": "enrique/carpeta",
+      "target": "sebastian",
+      "type": 1
+    },
+    {
+      "source": "enrique/carpeta",
+      "target": "walla/carpeta0",
+      "type": 1
+    },
+    {
+      "source": "enrique/carpeta",
+      "target": "ludo",
+      "type": 1
+    },
+    {
+      "source": "enrique",
+      "target": "ludo",
+      "type": 1
+    },
+    {
+      "source": "nina",
+      "target": "sebastian",
+      "type": 1
+    },
+    {
+      "source": "nina",
+      "target": "walla/carpeta0/carpeta 1",
+      "type": 1
+    }
+  ]
+}

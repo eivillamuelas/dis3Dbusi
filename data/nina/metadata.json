@@ -1,0 +1,19 @@
+{
+  "path": "data/nina",
+  "files": [
+    {
+      "type": "image",
+      "name": "factura.jpeg",
+      "link": "sebastian"
+    },
+    {
+      "type": "document",
+      "name": "perec-georges_tentativa-de-agotar-un-lugar-parisino-1.pdf",
+      "link": "walla/carpeta0/carpeta 1"
+    },
+    {
+      "type": "image",
+      "name": "publicSpace.png"
+    }
+  ]
+}

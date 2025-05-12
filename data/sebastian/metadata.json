@@ -1,0 +1,35 @@
+{
+  "path": "data/sebastian",
+  "files": [
+    {
+      "type": "document",
+      "name": "Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf",
+      "link": "enrique/carpeta"
+    },
+    {
+      "type": "image",
+      "name": "face2.png",
+      "data": {
+        "pos": [
+          4,
+          6,
+          8
+        ],
+        "rot": [
+          45,
+          20,
+          120
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": "factura.jpeg",
+      "link": "nina"
+    },
+    {
+      "type": "html",
+      "name": "hello.html"
+    }
+  ]
+}

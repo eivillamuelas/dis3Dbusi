@@ -1,0 +1,28 @@
+{
+  "path": "data/enrique/carpeta",
+  "files": [
+    {
+      "type": "document",
+      "name": "Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf",
+      "link": "sebastian"
+    },
+    {
+      "type": "unknown",
+      "name": "api-dibujos.tldr"
+    },
+    {
+      "type": "unknown",
+      "name": "distribusi"
+    },
+    {
+      "type": "image",
+      "name": "espacio_intermedio.png",
+      "link": "walla/carpeta0"
+    },
+    {
+      "type": "image",
+      "name": "matrixClipInversion.png",
+      "link": "ludo"
+    }
+  ]
+}
