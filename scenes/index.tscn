@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c27jmjm6k0xbk"]
+
+[ext_resource type="Script" uid="uid://cysyo7e26ti0r" path="res://scripts/index.gd" id="1_igtc1"]
+[ext_resource type="PackedScene" uid="uid://bafrlfla08ax" path="res://scenes/player.tscn" id="2_igtc1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_igtc1"]
+size = Vector3(413.701, 1, 427.461)
+
+[node name="Game" type="Node3D"]
+script = ExtResource("1_igtc1")
+
+[node name="Player" parent="." instance=ExtResource("2_igtc1")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.08743, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_igtc1")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.665777, 0.74615, 0, -0.74615, 0.665777, 0, 0, 0)
+light_angular_distance = 58.75
